@@ -359,7 +359,7 @@ $main_text_color: #f16d7f;
 .footer {
   width: $widthSite;
   height: 79px;
-  background-color: black;
+  background-color: $backroundColor;
 
   /* display: flex;
     justify-content: center;
