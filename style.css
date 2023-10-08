@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  margin-left: calc(50% - 800px);
+  margin-right: calc(50% - 800px);
+}
+
+.header {
+  width: 1600px;
+  height: 75px;
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 240px 19px 231px;
+}
+
+.left_menu {
+  width: 111px;
+  height: 28px;
+  display: flex;
+  gap: 41px;
+}
+
+.right_menu {
+  width: 169px;
+  height: 37px;
+  display: flex;
+  gap: 31px;
+}
+
+.top_head {
+  width: 1600px;
+  height: 148px;
+  background-color: #f8f3f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top_head_heading {
+  margin-left: 15%;
+  width: 194px;
+  height: 29px;
+}
+
+.bredcrumbs {
+  margin-right: 15%;
+  width: 209px;
+  height: 17px;
+}
+
+.bredcrumbs_link_site {
+  color: #f16d7f;
+}
+
+.center_img {
+  width: 1600px;
+  height: 777px;
+  background-color: #f7f7f7;
+}
+
+.photo_girl {
+  width: 597px;
+  height: 724px;
+  flex-shrink: 0;
+  margin: 2% 30% 6% 32%;
+  z-index: 0;
+}
+
+.body_containe {
+  width: 1141px;
+  height: 601px;
+  background-color: #fff;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 1px solid #eaeaea;
+  stroke-width: 1px;
+  stroke: #eaeaea;
+  display: flex;
+  flex-flow: column wrap;
+  z-index: 1;
+  margin-top: -35px;
+}
+
+.women_colection {
+  width: 146px;
+  height: 17.144px;
+  flex-shrink: 0;
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 65px 497px 12px 497px;
+  z-index: 1;
+}
+
+.body_line {
+  width: 63px;
+  height: 3.025px;
+  flex-shrink: 0;
+  margin-bottom: 12px;
+}
+
+.body_title {
+  width: 253px;
+  height: 22.186px;
+  flex-shrink: 0;
+  color: #4d4d4d;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 49px;
+}
+
+.body_text {
+  width: 555px;
+  height: 51.431px;
+  flex-shrink: 0;
+  color: #5e5e5e;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 33px;
+}
+
+.body_price {
+  width: 56px;
+  height: 29.245px;
+  flex-shrink: 0;
+  color: #ef5b70;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 130px;
+}
+
+.box_choose {
+  width: 373px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.choose {
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button {
+  width: 212px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid #f16d7f;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.add_card {
+  text-decoration: none;
+  color: #f16d7f;
+  width: 82px;
+  height: 19.161px;
+  flex-shrink: 0;
+}
+
+.offers_container {
+  width: 1141px;
+  height: 520px;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 165px;
+}
+
+.offers_photo {
+  width: 360px;
+  height: 420px;
+  flex-shrink: 0;
+  margin-bottom: 24px;
+}
+
+.offers_link {
+  margin: 14px 193px 12px 18px;
+  width: 148.114px;
+  color: #000;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.offers_text {
+  margin: 12px 28px 18px 16px;
+  width: 314.743px;
+  color: #5d5d5d;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.offers_price {
+  width: 52.457px;
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 18px 260px 20px 18px;
+}
+
+.container_subscribe {
+  width: 1600px;
+  height: 448px;
+  background: url(./subscribe_background.webp), 0 -169px/100% 246.875% no-repeat lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 327px;
+  background-color: #000;
+  margin-top: 128px;
+}
+
+.box_guid {
+  /* max-width: 359px;
+    height: 225px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.guid {
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
+}
+
+.guide_text {
+  color: #222224;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subscribe_title {
+  color: #222224;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 167.2%;
+  /* 40.128px */
+}
+
+.subscribe_text {
+  color: #222224;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 167.2%;
+  margin-bottom: 39px;
+}
+
+.email__input {
+  max-width: 256px;
+  padding: 16px 64px 16px 22px;
+  background-color: #e1e1e1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.sub_btn {
+  max-width: 100px;
+  padding: 15px 7px 15px 8px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #f16d7f;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  transition: 0.3s;
+}
+
+/* footer */
+.footer {
+  width: 1600px;
+  height: 79px;
+  background-color: black;
+  /* display: flex;
+     justify-content: center;
+     align-items: center;
+  */
+  padding: 24px 230px 23px 235px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand_all {
+  margin-left: 5%;
+  color: #fbfbfb;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.social_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  /* transition: 1.3s; */
+}
+
+.contacts__icon {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transition: 1.3s; */
+}
+
+.social_box :hover {
+  background-color: purple;
+}
+
+.sub_btn:hover {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
