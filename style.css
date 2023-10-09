@@ -9,7 +9,7 @@
 }
 
 .header {
-  width: 1600px;
+  
   height: 75px;
   background-color: #222;
   display: flex;
@@ -33,7 +33,7 @@
 }
 
 .top_head {
-  width: 1600px;
+  /* width: 1600px; */
   height: 148px;
   background-color: #f8f3f4;
   display: flex;
@@ -58,7 +58,7 @@
 }
 
 .center_img {
-  width: 1600px;
+  /* width: 1600px; */
   height: 777px;
   background-color: #f7f7f7;
 }
@@ -240,7 +240,7 @@
 }
 
 .container_subscribe {
-  width: 1600px;
+  /* width: 1600px; */
   height: 448px;
   background: url(./subscribe_background.webp), 0 -169px/100% 246.875% no-repeat lightgray;
   display: flex;
@@ -327,7 +327,7 @@
 
 /* footer */
 .footer {
-  width: 1600px;
+  
   height: 79px;
   background-color: black;
   /* display: flex;

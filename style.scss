@@ -7,6 +7,10 @@ $main_text_color: #f16d7f;
   margin: 0;
   padding: 0;
 }
+// .center {
+//     width: 1600px;
+//     margin: 0 auto;
+// }
 
 .center {
   margin-left: calc(50% - $widthSite / 2);
@@ -15,7 +19,7 @@ $main_text_color: #f16d7f;
 
 .header {
   // width: $widthSite;
-  width: 100vw;
+  
   height: 75px;
   background-color: $backroundColor;
 
@@ -43,7 +47,7 @@ $main_text_color: #f16d7f;
 // header_center
 
 .top_head {
-  width: $widthSite;
+  // width: $widthSite;
 
   height: 148px;
   background-color: #f8f3f4;
@@ -358,8 +362,8 @@ $main_text_color: #f16d7f;
 /* footer */
 
 .footer {
-  // width: $widthSite;
-   width: 100vw;
+  width: $widthSite;
+  
   height: 79px;
   background-color: $backroundColor;
 
