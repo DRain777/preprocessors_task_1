@@ -424,3 +424,53 @@ $main_text_color: #f16d7f;
 .sub_btn:hover {
   background-color: green;
 }
+
+
+// test
+
+
+.test_container{
+
+
+  height: 75px;
+  background-color: $backroundColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 240p 19px 231px;
+  margin-top: 30px;
+}
+
+
+.left_menu_test{
+
+
+  width: 111px;
+  height: 28px;
+
+  display: flex;
+  gap: 41px;
+  margin-left: 15%;
+  
+
+
+
+  
+}
+
+
+.right_menu_test{
+
+
+  width: 169px;
+  height: 37px;
+
+  display: flex;
+  gap: 31px;
+  margin-right: 15%;
+
+
+
+
+
+}
