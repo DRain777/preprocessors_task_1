@@ -8,5 +8,5 @@
 
    
 
-   # Desktop_versiom_weht1600px  Посмотреть  [Сайт](https://drain777.github.io/preprocessors_task_1/) 
+   # Desktop_versiom_width_1600px  Посмотреть  [Сайт](https://drain777.github.io/preprocessors_task_1/) 
 
