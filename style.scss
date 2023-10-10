@@ -7,15 +7,15 @@ $main_text_color: #f16d7f;
   margin: 0;
   padding: 0;
 }
-// .center {
-//     width: 1600px;
-//     margin: 0 auto;
-// }
-
 .center {
-  margin-left: calc(50% - $widthSite / 2);
-  margin-right: calc(50% - $widthSite / 2);
+    width: $widthSite;
+    margin: 0 auto;
 }
+
+// .center {
+//   margin-left: calc(50% - $widthSite / 2);
+//   margin-right: calc(50% - $widthSite / 2);
+// }
 
 .header {
   // width: $widthSite;
@@ -211,14 +211,25 @@ $main_text_color: #f16d7f;
 // offers
 
 .offers_container {
-  width: 1141px;
+  // width: 1141px;
+ 
   height: 520px;
-  margin-left: 15%;
-  margin-right: 15%;
+  // margin-left: 15%;
+  // margin-right: 15%;
   @include center_block();
   gap: 30px;
   margin-top: 165px;
 }
+
+.offers_box{
+  width: 360px;
+  height: 581px;
+
+
+
+  
+}
+
 
 .offers_photo {
   width: 360px;
@@ -265,7 +276,7 @@ $main_text_color: #f16d7f;
 
 // _subscribe !!!
 .container_subscribe {
-  width: $widthSite;
+  // width: $widthSite;
   height: 448px;
   background: url(./subscribe_background.webp),
     0 -169px /100% 246.875% no-repeat lightgray;
@@ -362,7 +373,7 @@ $main_text_color: #f16d7f;
 /* footer */
 
 .footer {
-  width: $widthSite;
+  // width: $widthSite;
   
   height: 79px;
   background-color: $backroundColor;

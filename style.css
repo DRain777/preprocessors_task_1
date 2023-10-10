@@ -4,12 +4,11 @@
 }
 
 .center {
-  margin-left: calc(50% - 800px);
-  margin-right: calc(50% - 800px);
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .header {
-  
   height: 75px;
   background-color: #222;
   display: flex;
@@ -33,7 +32,6 @@
 }
 
 .top_head {
-  /* width: 1600px; */
   height: 148px;
   background-color: #f8f3f4;
   display: flex;
@@ -58,7 +56,7 @@
 }
 
 .center_img {
-  /* width: 1600px; */
+  width: 1600px;
   height: 777px;
   background-color: #f7f7f7;
 }
@@ -187,15 +185,17 @@
 }
 
 .offers_container {
-  width: 1141px;
   height: 520px;
-  margin-left: 15%;
-  margin-right: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   margin-top: 165px;
+}
+
+.offers_box {
+  width: 360px;
+  height: 581px;
 }
 
 .offers_photo {
@@ -240,7 +240,6 @@
 }
 
 .container_subscribe {
-  /* width: 1600px; */
   height: 448px;
   background: url(./subscribe_background.webp), 0 -169px/100% 246.875% no-repeat lightgray;
   display: flex;
@@ -327,9 +326,8 @@
 
 /* footer */
 .footer {
-  
   height: 79px;
-  background-color: black;
+  background-color: #222;
   /* display: flex;
      justify-content: center;
      align-items: center;
