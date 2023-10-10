@@ -394,14 +394,4 @@
   display: flex;
   gap: 31px;
   margin-right: 15%;
-}
-
-.footer_container {
-  width: 1135px;
-  height: 79px;
-  background-color: #222;
-  padding: 24px 230px 23px 235px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }/*# sourceMappingURL=style.css.map */
