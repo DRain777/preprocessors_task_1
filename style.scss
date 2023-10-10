@@ -407,7 +407,7 @@ $main_text_color: #f16d7f;
   /* transition: 1.3s; */
 }
 
-.contacts__icon {
+.social_networks {
   width: 32px;
   height: 32px;
   background-color: #fff;
@@ -474,3 +474,44 @@ $main_text_color: #f16d7f;
 
 
 }
+
+
+
+// new_footer
+
+
+
+
+.footer_container{
+  height: 79px;
+  background-color: $backroundColor;
+  padding: 24px 230px 23px 235px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+
+}
+// .brand_all{
+
+
+
+// }
+
+
+
+// .social_box{
+
+
+
+
+// }
+
+
+// .social_networks{
+
+
+
+// }
